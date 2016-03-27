@@ -1,0 +1,32 @@
+{
+  "name": "github-weekly-report",
+  "version": "1.0.0",
+  "description": "Generates your weekly report based on Github Pull Request and Issues",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/github-weekly-report.git"
+  },
+  "keywords": [
+    "github",
+    "report"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/github-weekly-report/issues"
+  },
+  "homepage": "https://github.com/weflex/github-weekly-report#readme",
+  "dependencies": {
+    "cli-table": "0.3.1",
+    "es6-promisify": "3.0.0",
+    "lodash": "^4.6.1",
+    "moment": "^2.12.0",
+    "octop": "1.1.0",
+    "vorpal": "1.10.9"
+  }
+}
